@@ -1,3 +1,5 @@
+from typing import List
+
 """
 TESTS
 
@@ -11,7 +13,7 @@ t1 = [
     8
 ]
 
-def twoSumSorted(arr, target):
+def twoSumSorted(arr: List[int], target: int) -> List[int]:
     l, r = 0, len(arr) - 1
 
     while l < r:
@@ -22,6 +24,8 @@ def twoSumSorted(arr, target):
             l += 1
         else:
             r -= 1
+
+    return []
         
 
 print(twoSumSorted(t1[0], t1[1]))
