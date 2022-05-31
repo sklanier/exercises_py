@@ -13,6 +13,11 @@ t1 = [
     8
 ]
 
+t2 = [
+    [2,3,4,5,8,11,18],
+    200
+]
+
 def twoSumSorted(arr: List[int], target: int) -> List[int]:
     l, r = 0, len(arr) - 1
 
@@ -28,4 +33,4 @@ def twoSumSorted(arr: List[int], target: int) -> List[int]:
     return []
         
 
-print(twoSumSorted(t1[0], t1[1]))
+print(twoSumSorted(t2[0], t2[1]))
