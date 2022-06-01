@@ -31,6 +31,5 @@ def twoSumSorted(arr: List[int], target: int) -> List[int]:
             r -= 1
 
     return []
-        
 
 print(twoSumSorted(t2[0], t2[1]))
